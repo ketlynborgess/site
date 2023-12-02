@@ -10,9 +10,31 @@
     justify-content: space-around;
     align-items: center;
     margin: 24px 0;
-    font-size: 24px;
 }
 
 .cabecalho.imagem{
     width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+,escola-imagem{
+    width: 25%
+}
+
+.escola{
+    background-image: -o-linear-gradient(aquamarine,azure);
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24%;
+}
+
+.escola-div-conteudo{
+    width: 25%;
 }
